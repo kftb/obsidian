@@ -7,3 +7,11 @@
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
+
+# Exclude all Notes, Clippings, Attachments
+Notes/
+Daily/
+References/
+People/
+Clippings/
+Attachments/
