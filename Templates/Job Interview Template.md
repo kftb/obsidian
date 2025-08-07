@@ -13,11 +13,13 @@ tags:
   - meetings/job
   - meetings
 ---
-## Questions and topics
-
-- 
-
-## Notes
-
-- 
+## Prep
+- xxx
+- xxx
+### Question to ask
+- xxx
+- xxx
+## Questions asked
+- xxx
+- xxx
 

@@ -2,4 +2,4 @@
 tags:
   - meetings/type
 ---
-![[Meetings.base#Type]]
+![[Meetings.base]]

@@ -1,8 +1,9 @@
 ---
+title: 
 categories:
   - "[[Projects]]"
-type: []
-org: []
+type: 
+org: 
 start: 
 year: 
 tags:
