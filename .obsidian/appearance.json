@@ -2,6 +2,7 @@
   "accentColor": "",
   "cssTheme": "",
   "enabledCssSnippets": [
-    "stock-charts"
+    "stock-charts",
+    "theme-override"
   ]
 }
