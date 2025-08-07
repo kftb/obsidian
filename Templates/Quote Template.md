@@ -7,3 +7,5 @@ tags:
 topics: []
 via:
 ---
+> [!quote] 
+> Here goes the quote
