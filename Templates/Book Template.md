@@ -1,24 +1,25 @@
 ---
 categories:
   - "[[Books]]"
-author: 
-cover: 
-genre: 
-series: 
-pages: 
-isbn: 
-isbn13: 
-year: 
-rating: 
-topics: 
-start: 
-end: 
-created:
-  "{ date }": 
-last: 
+author:
+cover:
+genre:
+series:
+pages:
+isbn:
+isbn13:
+year:
+rating:
+topics:
+start:
+end:
+created: <% tp.file.creation_date() %>
+last:
 via: ""
 tags:
   - books
   - references
   - to-read
+status:
+  - "[[unread]]"
 ---

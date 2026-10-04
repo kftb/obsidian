@@ -1,0 +1,3 @@
+Unfortunately experience, hit the place on a Thursday afternoon, there were only 2-3 people there. Asked for water, kept waiting for 15 minutes. Watched finished food wait to be picked up for quite a while too. Then on the menu it stated all "burgers are served with fries". Were then informed that it's now chips but we can order specialty fries as a side at full price. We decided then to go somewhere else. 
+
+While the waitress was kind and apologetic, Da Burgwr Wing hub didn't seem to have their ops together. 

@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.hasProperty("weight")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - weight
+    columnSize:
+      note.weight: 62

@@ -3,8 +3,9 @@ categories: "[[People]]"
 tags:
   - people
   - musicians
-created: {{date}}
+created: <% tp.file.creation_date() %>
 ---
+
 ## Albums
 
 ![[Albums.base#Artist]]

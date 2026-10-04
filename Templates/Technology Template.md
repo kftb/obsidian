@@ -7,5 +7,5 @@ topics:
 tags:
   - nas
   - it
-created:
+created: <% tp.file.creation_date() %>
 ---

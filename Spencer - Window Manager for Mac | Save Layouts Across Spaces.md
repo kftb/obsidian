@@ -1,0 +1,1 @@
+[Spencer - Window Manager for Mac | Save Layouts Across Spaces](https://macspencer.app/#buysection)

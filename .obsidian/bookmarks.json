@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1754541858282,
+      "title": "All w/o People",
+      "options": {
+        "collapse-filter": false,
+        "search": "-path:People  ",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "",
+            "color": {
+              "a": 1,
+              "rgb": 14701138
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": false,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": true,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 0.9658188209224065,
+        "close": false
+      }
+    }
+  ]
+}

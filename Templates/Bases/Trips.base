@@ -1,7 +1,8 @@
 filters:
   and:
-    - note.categories.contains(link("Trips"))
+    - categories.contains(link("Trips"))
     - '!file.name.contains("Template")'
+    - '!file.tags.contains("journal")'
 properties:
   note.start:
     displayName: Start
@@ -23,7 +24,7 @@ views:
       - end
       - loc
     sort:
-      - column: note.end
+      - property: end
         direction: DESC
     columnSize:
       file.name: 255

@@ -2,7 +2,7 @@
 categories:
   - "[[Meetings]]"
 type: []
-date: {{date}}
+date: <% tp.file.creation_date() %>
 org: 
 loc: 
 people: []

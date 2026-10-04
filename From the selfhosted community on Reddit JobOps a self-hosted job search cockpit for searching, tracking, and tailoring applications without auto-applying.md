@@ -1,0 +1,1 @@
+[From the selfhosted community on Reddit: JobOps: a self-hosted job search cockpit for searching, tracking, and tailoring applications without auto-applying](https://www.reddit.com/r/selfhosted/s/sSUhHWZcfb)

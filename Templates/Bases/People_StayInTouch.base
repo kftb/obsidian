@@ -1,0 +1,39 @@
+filters:
+  and:
+    - '!file.name.contains("Template")'
+    - tags.contains("people")
+    - "!contact_frequency.isEmpty()"
+formulas:
+  Age: (now() - birthday).years.floor()
+  Next due date: (last+contact_frequency).format("YYYY-MM-DD")
+properties:
+  file.name:
+    displayName: Name
+  note.tags:
+    displayName: Tags
+  note.birthday:
+    displayName: Birthday
+views:
+  - type: table
+    name: All people
+    order:
+      - file.name
+      - tags
+      - birthday
+      - formula.Age
+      - last
+      - formula.Next due date
+      - contact_frequency
+    sort:
+      - property: contact_frequency
+        direction: DESC
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: ASC
+      - property: birthday
+        direction: DESC
+    columnSize:
+      file.name: 185
+      note.tags: 209
+      formula.Age: 99

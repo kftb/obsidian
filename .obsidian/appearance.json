@@ -1,8 +1,11 @@
 {
   "accentColor": "",
-  "cssTheme": "",
+  "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "stock-charts",
-    "theme-override"
-  ]
+    "theme-override",
+    "two-columns",
+    "two-column"
+  ],
+  "interfaceFontFamily": ""
 }

@@ -7,8 +7,7 @@ tags:
   - references
 genre: []
 artist: ""
-year: 
-created: {{date}}
+year:
+created: <% tp.file.creation_date() %>
 rating:
 ---
-

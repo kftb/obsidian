@@ -34,12 +34,6 @@
         "Alt"
       ],
       "key": "ArrowLeft"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowLeft"
     }
   ],
   "app:go-forward": [
@@ -47,12 +41,6 @@
       "modifiers": [
         "Mod",
         "Alt"
-      ],
-      "key": "ArrowRight"
-    },
-    {
-      "modifiers": [
-        "Mod"
       ],
       "key": "ArrowRight"
     }
@@ -146,19 +134,10 @@
       "key": "T"
     }
   ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
   "templater-obsidian:insert-templater": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
+        "Ctrl"
       ],
       "key": "T"
     }

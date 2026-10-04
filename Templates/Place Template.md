@@ -5,7 +5,7 @@ tags:
   - places
 type: []
 loc: []
-rating: 
-created: {{date}}
-last: {{date}}
+rating:
+created: <% tp.file.creation_date() %>
+last: { { date } }
 ---

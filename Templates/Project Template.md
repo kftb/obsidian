@@ -1,14 +1,17 @@
 ---
-title: 
+title:
+slug:
 categories:
   - "[[Projects]]"
-type: 
-org: 
-start: 
-year: 
+type:
+start:
+year:
 tags:
   - projects
-url: 
+url:
 status:
 ---
+## Summary
 
+## Relevant project parts
+![[Project.base]]

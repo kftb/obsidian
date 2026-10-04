@@ -4,14 +4,14 @@ categories:
 tags:
   - places
 type: []
-address: 
-rating: 
-created: {{date}}
-url: 
-year: 
-price: 
-sqft: 
-lotsqft: 
+address:
+rating:
+created: <% tp.file.creation_date() %>
+url:
+year:
+price:
+sqft:
+lotsqft:
 loc: []
 status:
 ---

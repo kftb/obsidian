@@ -4,11 +4,11 @@ filters:
     - '!file.name.contains("Template")'
 properties:
   note.author:
-    displayName: Author
+    displayName: author
   file.name:
-    displayName: Name
+    displayName: name
   note.year:
-    displayName: Year
+    displayName: year
   note.genre:
     displayName: Genre
 views:
@@ -16,15 +16,29 @@ views:
     name: Books
     order:
       - file.name
+      - series
       - author
-      - length
       - year
       - rating
-      - topics
-      - last
+      - start
+      - end
+      - status
+      - type
+      - note.note
     sort:
       - property: file.name
+        direction: DESC
+      - property: status
         direction: ASC
+      - property: end
+        direction: ASC
+    columnSize:
+      note.series: 189
+      note.year: 54
+      note.rating: 75
+      note.start: 151
+      note.end: 144
+      note.status: 98
   - type: table
     name: Top rated
     order:
@@ -55,3 +69,16 @@ views:
       - file.name
       - year
       - genre
+  - type: table
+    name: Read
+    order:
+      - file.name
+      - type
+      - genre
+      - rating
+      - start
+      - end
+  - type: table
+    name: View
+  - type: table
+    name: View 2

@@ -1,0 +1,80 @@
+filters:
+  and:
+    - file.tags.contains("encounter")
+    - '!file.folder.contains("template")'
+views:
+  - type: table
+    name: Session encounters
+    filters:
+      and:
+        - session.contains(this.file.name)
+    order:
+      - id
+      - file.name
+      - description
+    sort:
+      - property: id
+        direction: ASC
+    columnSize:
+      note.id: 84
+      file.name: 287
+      note.description: 523
+  - type: table
+    name: EoaLN Encounters
+    filters:
+      and:
+        - file.tags.contains("eoaln")
+        - file.tags.contains("encounter")
+        - file.folder == "Notes/dnd"
+    order:
+      - id
+      - file.name
+      - chapter
+      - description
+    sort:
+      - property: id
+        direction: ASC
+    columnSize:
+      note.id: 95
+      file.name: 342
+      note.chapter: 321
+      note.description: 660
+  - type: table
+    name: NdLK Encounters
+  - type: table
+    name: NdLK Encounters 2
+    filters:
+      and:
+        - file.tags.contains("ndlk")
+        - file.tags.contains("encounter")
+        - file.folder == "Notes/dnd"
+    order:
+      - id
+      - file.name
+      - chapter
+      - description
+    sort:
+      - property: id
+        direction: ASC
+    columnSize:
+      note.id: 48
+      note.chapter: 354
+      note.description: 660
+  - type: table
+    name: Chapter encounter
+    filters:
+      and:
+        - chapter.contains(this.file.name)
+    order:
+      - id
+      - file.name
+      - description
+    sort:
+      - property: id
+        direction: ASC
+    columnSize:
+      note.id: 84
+      file.name: 334
+      note.description: 660
+  - type: table
+    name: FdG

@@ -6,14 +6,15 @@ type:
 tags:
   - places
   - cities
-loc: 
-rating: 
-created: {{date}}
-last: 
+loc:
+rating:
+created: <% tp.file.creation_date() %>
+last:
 location:
   - "35.021041"
   - "135.7556075"
 ---
+
 ## Trips
 
 ![[Trips.base#Related trips]]

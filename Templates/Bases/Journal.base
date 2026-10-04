@@ -1,7 +1,7 @@
 filters:
   and:
     - '!file.name.contains("Template")'
-    - tags.contains("journal")
+    - tags.contains("daily")
 properties:
   file.name:
     displayName: Entry
@@ -13,3 +13,6 @@ views:
     order:
       - file.name
       - created
+      - mood
+    columnSize:
+      file.name: 272

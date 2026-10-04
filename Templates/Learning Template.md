@@ -6,5 +6,5 @@ tags:
   - research
   - learning
   - 🌱
-created:
+created: <% tp.file.creation_date() %>
 ---

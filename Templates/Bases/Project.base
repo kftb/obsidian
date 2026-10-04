@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.tags.contains(this.slug)
+    - file.folder != "Notes/projects"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+      - description
+    sort:
+      - property: file.ctime
+        direction: ASC
+    columnSize:
+      file.name: 422
+      file.ctime: 288

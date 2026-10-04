@@ -23,10 +23,10 @@ views:
       - status
       - url
     sort:
-      - column: note.status
+      - property: status
         direction: ASC
-      - column: note.year
+      - property: year
         direction: DESC
     columnSize:
-      file.name: 209
+      file.name: 438
       note.type: 199

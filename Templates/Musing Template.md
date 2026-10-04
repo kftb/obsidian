@@ -2,6 +2,6 @@
 categories: "[[Musings]]"
 tags:
   - musings
-created: {{date}}
-last: {{date}}
+created: <% tp.file.creation_date() %>
+last: { { date } }
 ---

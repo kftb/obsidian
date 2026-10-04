@@ -1,0 +1,51 @@
+filters:
+  and:
+    - file.folder != "Templates"
+    - chapter == this.file.name
+    - file.tags.contains("session")
+views:
+  - type: table
+    name: NdLK
+    filters:
+      and:
+        - file.tags.contains("ndlk")
+        - file.tags.contains("session")
+        - file.folder == "Notes/dnd"
+    order:
+      - file.name
+      - date
+      - title
+      - description
+    columnSize:
+      note.date: 142
+      note.title: 190
+      note.description: 635
+  - type: table
+    name: EoaLN
+    filters:
+      and:
+        - file.tags.contains("eoaln")
+        - file.tags.contains("session")
+        - file.folder == "Notes/dnd"
+    order:
+      - file.name
+      - date
+      - chapter
+      - description
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 164
+      note.date: 142
+      note.chapter: 354
+      note.description: 660
+  - type: table
+    name: SFdG
+    order:
+      - file.name
+      - chapter
+      - date
+    columnSize:
+      file.name: 171
+      note.chapter: 217

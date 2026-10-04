@@ -6,6 +6,7 @@
     "author": "multitext",
     "birthday": "date",
     "categories": "multitext",
+    "campaign": "text",
     "language": "text",
     "conference": "text",
     "created": "date",
@@ -21,6 +22,7 @@
     "isbn": "number",
     "isbn13": "number",
     "last": "date",
+    "floc": "multitext",
     "loc": "multitext",
     "location": "multitext",
     "lotsqft": "number",
@@ -42,8 +44,9 @@
     "speaker": "multitext",
     "source": "text",
     "sqft": "number",
+    "setting": "text",
     "start": "date",
-    "status": "multitext",
+    "status": "text",
     "system": "text",
     "tags": "tags",
     "topics": "multitext",
@@ -75,6 +78,13 @@
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
     "job-title": "text",
-    "connections": "multitext"
+    "connections": "multitext",
+    "id": "text",
+    "mood": "multitext",
+    "affiliation": "multitext",
+    "weight": "number",
+    "contact_frequency": "text",
+    "TQ_show_toolbar": "checkbox",
+    "type": "multitext"
   }
 }

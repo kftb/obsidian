@@ -1,0 +1,15 @@
+filters:
+  and:
+    - date >= this.start
+    - file.tags.contains("trips")
+    - date <= this.end
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - date
+      - summary
+      - event
+    columnSize:
+      note.summary: 510

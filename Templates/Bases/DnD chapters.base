@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.tags.contains(this.slug)
+    - file.tags.contains("chapter")
+    - file.folder == "Notes/dnd"
+views:
+  - type: table
+    name: General
+    order:
+      - file.name
+      - start
+      - end
+      - description
+    columnSize:
+      note.start: 185
+      note.end: 189
+      note.description: 635

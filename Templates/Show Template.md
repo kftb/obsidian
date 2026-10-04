@@ -2,11 +2,11 @@
 categories:
   - "[[Shows]]"
 genre: []
-year: 
+year:
 cast: []
-rating: 
-created: {{date}}
-last: {{date}}
+rating:
+created: <% tp.file.creation_date() %>
+last: { { date } }
 tags:
   - shows
   - references

@@ -4,9 +4,9 @@ categories:
 tags:
   - food
   - references
-maker: 
-rating: 
-price: 
-last: {{date}}
-created: {{date}}
+maker:
+rating:
+price:
+last: { { date } }
+created: <% tp.file.creation_date() %>
 ---

@@ -1,11 +1,12 @@
 ---
 attribution: []
-source: 
-created: {{date}}
+source:
+created: <% tp.file.creation_date() %>
 tags:
   - quotes
 topics: []
 via:
 ---
-> [!quote] 
+
+> [!quote]
 > Here goes the quote

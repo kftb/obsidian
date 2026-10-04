@@ -1,3 +1,2 @@
-### <% tp.date.now("YYYY-MM-DD") %>
-**Chatted on X**
+### <% tp.date.now("YYYY-MM-DD") %>: Chatted at X
 - xxx

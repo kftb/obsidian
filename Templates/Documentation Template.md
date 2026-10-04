@@ -1,8 +1,17 @@
 ---
 categories:
   - "[[Documentation]]"
-topics: 
+topics:
+description:
 tags:
   - documentation
-created:
+  - project-xxx
+created: <% tp.file.creation_date() %>
 ---
+> [!info]  Goal
+> xxx
+> 
+## ToDos
+
+
+## Steps

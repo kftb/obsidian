@@ -5,8 +5,7 @@ tags:
   - note
   - journal
   - meditation
-created: {{date}}
+created: <% tp.file.creation_date() %>
 loc: []
 topics: []
 ---
-

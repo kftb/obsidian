@@ -5,9 +5,9 @@ tags:
   - posts
 author:
   - "[[Me]]"
-url: 
-created: {{date}}
-published: 
+url:
+created: <% tp.file.creation_date() %>
+published:
 topics: []
 status:
 ---

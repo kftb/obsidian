@@ -1,25 +1,26 @@
 ---
 categories:
   - "[[Recipes]]"
-cuisine: 
+cuisine:
 type: []
-ingredients: 
+ingredients:
 author: []
-url: 
-rating: 
-created: {{date}}
-last: {{date}}
+url:
+rating:
+created: <% tp.file.creation_date() %>
+last: { { date } }
 tags:
   - recipes
 ---
+
 ## Ingredients
 
-- 
+-
 
 ## Directions
 
-- 
+-
 
 ## Notes
 
-- 
+-

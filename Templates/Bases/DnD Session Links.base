@@ -1,0 +1,7 @@
+filters:
+  and:
+    - this.file.links.contains(file.file)
+    - '!file.folder.contains("templates")'
+views:
+  - type: table
+    name: Table

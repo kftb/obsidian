@@ -4,8 +4,9 @@ categories:
 tags:
   - people
   - directors
-created: {{date}}
+created: <% tp.file.creation_date() %>
 ---
+
 ## Movies
 
 ![[Movies.base#Director]]
